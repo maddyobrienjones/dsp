@@ -20,7 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `pwd`: show current working directory path
+> > `mkdir [directory]`: creating a directory
+> > `rm [directory]`: deleting a directory
+> > `touch [file]`: creating a file
+> > `rm [file]`: deleting a file
+> > `mv [file] [newname]`: renaming a file
+> > `ls -a`: listing hidden files
+> > `cp [directory1]/[file] [directory2]/`: copying a file from one directory to another
+> > `mv [file] [directory]/`: moving a file from working directory to another
+> > `cp a*.txt [directory]/`: copies all .txt files starting with a in working directory to `[directory]`
 
 ---
 
@@ -35,7 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`: lists files in working directory
+> > `ls -a`: displays all files, including hidden files
+> > `ls -l`: lists contents in long format
+> > `ls -lh`: prints files in long format with sizes in human-readable format
+> > `ls -lah`: prints all files in long format with sizes in human-readable format
+> > `ls -t`: lists files sorted by timestamp
+> > `ls -Glp`: lists contents in long format, displays directories with / in front, doesn't print group names
 
 ---
 
@@ -43,7 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls -1`: displays each entry on a line
+> > `ls -c`: displays file by file timestamp
+> > `ls -u`: displays file by file access time
+> > `ls -m`: displays names as comma-separated list
+> > `ls -R`: displays subdirectories as well
 
 ---
 
@@ -51,7 +70,4 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
-
+> > `xargs` takes in a command, and then takes in an argument from standard input to run the command. An example would be `xargs find -name`. This opens up standard input, where you could put in a*.txt. This would search the working directory for all txt files starting with 'a'.

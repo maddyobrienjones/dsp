@@ -20,16 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > `pwd`: show current working directory path
-> > `mkdir [directory]`: creating a directory
-> > `rm [directory]`: deleting a directory
-> > `touch [file]`: creating a file
-> > `rm [file]`: deleting a file
-> > `mv [file] [newname]`: renaming a file
-> > `ls -a`: listing hidden files
-> > `cp [directory1]/[file] [directory2]/`: copying a file from one directory to another
-> > `mv [file] [directory]/`: moving a file from working directory to another
-> > `cp a*.txt [directory]/`: copies all .txt files starting with a in working directory to `[directory]`
+> > `pwd`: show current working directory path  
+> > `mkdir [directory]`: creating a directory  
+> > `rm [directory]`: deleting a directory  
+> > `touch [file]`: creating a file  
+> > `rm [file]`: deleting a file  
+> > `mv [file] [newname]`: renaming a file  
+> > `ls -a`: listing hidden files  
+> > `cp [directory1]/[file] [directory2]/`: copying a file from one directory to another  
+> > `mv [file] [directory]/`: moving a file from working directory to another  
+> > `cp a*.txt [directory]/`: copies all .txt files starting with a in working directory to `[directory]`  
 
 ---
 
@@ -44,13 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > `ls`: lists files in working directory
-> > `ls -a`: displays all files, including hidden files
-> > `ls -l`: lists contents in long format
-> > `ls -lh`: prints files in long format with sizes in human-readable format
-> > `ls -lah`: prints all files in long format with sizes in human-readable format
-> > `ls -t`: lists files sorted by timestamp
-> > `ls -Glp`: lists contents in long format, displays directories with / in front, doesn't print group names
+> > `ls`: lists files in working directory  
+> > `ls -a`: displays all files, including hidden files  
+> > `ls -l`: lists contents in long format  
+> > `ls -lh`: prints files in long format with sizes in human-readable format  
+> > `ls -lah`: prints all files in long format with sizes in human-readable format  
+> > `ls -t`: lists files sorted by timestamp  
+> > `ls -Glp`: lists contents in long format, displays directories with / in front, doesn't print group names  
 
 ---
 
@@ -58,11 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > `ls -1`: displays each entry on a line
-> > `ls -c`: displays file by file timestamp
-> > `ls -u`: displays file by file access time
-> > `ls -m`: displays names as comma-separated list
-> > `ls -R`: displays subdirectories as well
+> > `ls -1`: displays each entry on a line  
+> > `ls -c`: displays file by file timestamp  
+> > `ls -u`: displays file by file access time  
+> > `ls -m`: displays names as comma-separated list  
+> > `ls -R`: displays subdirectories as well  
 
 ---
 

@@ -93,7 +93,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist statistics is based on the idea that probabilities are ultlimately the frequencies at which events occur. So, a 1/4 chance that someone is born with blonde hair would mean, for frequentists, that for every four babies born, one will have blond hair. Bayesian statistics thinks of probabilities as the plausibilities of events based on previous assumptions and updated based on new data becoming available. So, a 1/4 chance that someone is born with blond hair would mean, for Bayesians, that for each baby born, there is a 1/4 chance that baby will be blond. However, this would depend on existing assumptions about the data, and could change, perhaps when looking at babies born in Africa or Asia, who would be more likely to have brown or black hair. In this scenario, the plausibility of a baby being born with blond hair would be much lower.
 
 ---
 

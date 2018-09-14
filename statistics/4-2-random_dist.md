@@ -12,7 +12,9 @@ randomlist = [random.random() for i in range(1000)]
 random_pmf = thinkstats2.Pmf(randomlist)
 thinkplot.Pmf(random_pmf)
 thinkplot.show(xlabel='number', ylabel='probability')
+```
 
+``` python
 random_cdf = thinkstats2.Cdf(randomlist)
 thinkplot.Cdf(random_cdf)
 thinkplot.Show(xlabel='number', ylabel='CDF')

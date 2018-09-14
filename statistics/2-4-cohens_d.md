@@ -14,6 +14,7 @@ first = live[live['birthord'] == 1]
 others = live[live['birthord'] != 1]
 
 effect = thinkstats2.CohenEffectSize(first['totalwgt_lb'], others['totalwgt_lb'])
-print(effect)```
+print(effect)
+```
 
 >> The effect size of birth order on birth weight is -0.089. This is slightly more significant than the effect size of birth order on pregnancy length (0.029). This effect size means that the average difference in birth weight is 0.089 standard deviations.

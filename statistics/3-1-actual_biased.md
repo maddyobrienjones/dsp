@@ -28,4 +28,4 @@ thinkplot.show()
 print(pmf3_1.Mean()) #1.024205155043831
 print(biased.Mean()) #2.403679100664282
 ```
-> In comparing the biased and unbiased distributions, there is clearly a large difference. In the unbiased, the mean number of children per household is around 1, while in the biased distribution, it is around 2.4. 
+> In comparing the biased and unbiased distributions, there is clearly a large difference. In the unbiased, the mean number of children per household is around 1, while in the biased distribution, it is around 2.4. The images for the biased and unbiased PMFs are uploaded to the statistics folder of this repository under 'numkdhh_biased.png' and 'numkdhh_unbiased.png' respectively.
